@@ -1,61 +1,44 @@
-
-
 body {
-background-color: #FFF44F;
-border: 10px black;
-
+  background-color: #FFF44F;
 }
 
-h1, h2, h3, p{
-color: black;
-text-align:center;
-
+h1, h2, h3, p {
+  color: black;
+  text-align: center;
 }
 
 .fa-instagram {
   font-size: 32px;
 }
 
-
-
-
 .yellow-outline {
-  color: black; /* Yellow text */
+  color: black;
   text-shadow: -2px 0 yellow, 0 2px green, 2px 0 green, 0 -2px green;
 }
-/*Add styling to header image*/
+
 img {
   border-radius: 50%;
   width: 100px;
-  height:100px;
-
+  height: 100px;
 }
-
-/* Add some styling for the website */
 
 body {
   margin: 0.2;
   font-family: Courier New, Arial, sans-serif;
-  font-size:30px
- 
-  
 }
-  
 
-/* Style the header */
 header {
   background-color: #6699CC;
   color: #00FFFF;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  padding: 0 2px;
-  
+  padding: 2px;
 }
 
-/* Style the dropdown navigation bar */
 .nav-bar {
   display: flex;
+  flex-direction: column;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -68,22 +51,20 @@ header {
 .nav-bar li a {
   color: black;
   text-decoration: none;
-  padding: 20px;
+  padding: 10px;
   display: block;
-  
 }
 
 .nav-bar li a:hover {
   background-color: #444;
 }
 
-/* Style the dropdown content */
 .nav-bar li .dropdown-content {
   display: none;
-  position: absolute;
+  position: relative;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -91,7 +72,6 @@ header {
   display: block;
 }
 
-/* Style the main content */
 main {
   padding: 20px;
 }
@@ -101,16 +81,13 @@ main {
   margin: auto;
 }
 
-
-
-/* Style the YouTube and subscriber count section */
 .video-section {
   display: flex;
+  flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
 }
 
-/* Style the "Find out more" button */
 .find-out-more-btn {
   background-color: #333;
   color: white;
@@ -123,7 +100,6 @@ main {
   background-color: #444;
 }
 
-/* Style the "Read more" button */
 .read-more-btn {
   background-color: #6699CC;
   color: white;
@@ -131,12 +107,8 @@ main {
   padding: 10px 20px;
   cursor: pointer;
   margin: 0 auto;
-
 }
 
-
-
-/* Style the form */
 form {
   display: flex;
   flex-direction: column;
@@ -145,7 +117,7 @@ form {
 }
 
 form input {
-  width: 300px;
+  width: 90%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -162,9 +134,9 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-  background-color: #444
+  background-color: #444;
+}
 
-
-.second-page{
-color: red;
+.second-page {
+  color: red;
 }

@@ -34,7 +34,7 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 2px;
-  width: fit-content;
+  width: 100%;
 }
 
 .nav-bar {

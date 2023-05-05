@@ -78,7 +78,7 @@ main {
 }
 
 .container {
-  display: block;
+  display: flex;
   margin: auto;
 }
 

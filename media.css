@@ -74,7 +74,7 @@ header {
 }
 
 main {
-  padding: 20px;
+  padding: 10px;
 }
 
 .container {
@@ -84,22 +84,6 @@ main {
   overflow: hidden;
   max-width: 100%;
 }
-
-.video-container iframe, .video-container object, .video-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-Test and adjust: After making these changes, test your website on different mobile devices to see how the videos look. If they're still not fitting properly, you may need to adjust the CSS further to get the desired results.
-I hope this helps!
-
-
-
-
-
-
 
   
 }

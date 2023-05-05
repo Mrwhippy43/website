@@ -91,7 +91,7 @@ main {
 .class-container {
   display: flex;
   flex-direction: column;
-  justify-content: centre;
+  justify-content: left;
   margin-bottom: 20p;
   max-width: 100%;
 }

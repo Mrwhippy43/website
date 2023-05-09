@@ -19,7 +19,7 @@ text-align:center;
   text-shadow: -2px 0 yellow, 0 2px green, 2px 0 green, 0 -2px green;
 }
 /*Add styling to header image*/
-img {
+.image1 {
   border-radius: 50%;
   width: 100px;
   height:100px;
@@ -159,16 +159,16 @@ form input[type="submit"] {
 
 form input[type="submit"]:hover {
   background-color: #444;
-
-
-.second-page{
-color: red;
 }
-
 
 
 /*style of blog link pictures*/
-.review1 {
-width: 500px !important;
-height: 300px !important;
+.image2 {
+  max-width: 20%;
+  height: auto;
+  margin: 10px auto;
+  border: 2px solid black;
+  display: block;
 }
+
+

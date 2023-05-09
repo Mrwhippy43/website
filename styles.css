@@ -167,3 +167,8 @@ color: red;
 
 
 
+/*style of blog link pictures*/
+.review1 {
+width: 500px !important;
+height: 300px !important;
+}

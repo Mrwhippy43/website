@@ -221,6 +221,12 @@ form input[type="submit"]:hover {
   height: auto;
 }
 
+.img-3 {
+  display: block;
+  margin: auto;
+  max-width: 30%;
+  height: auto%;
+}
 
 
 

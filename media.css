@@ -156,6 +156,13 @@ form input[type="submit"]:hover {
   height: auto%;
 }
 
+.img-10 {
+  display: block;
+  margin: auto;
+  max-width: 30%;
+  height: auto%;
+}
+
 @media only screen and (max-width: 600px) {
   .image1 {
     width: 80px;

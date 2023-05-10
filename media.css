@@ -159,6 +159,13 @@ form input[type="submit"]:hover {
   height: auto%;
 }
 
+.img-9 {
+  display: block;
+  margin: auto;
+  max-width: 30%;
+  height: auto;
+}
+
 .img-10 {
   display: block;
   margin: auto;

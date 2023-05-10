@@ -172,3 +172,9 @@ form input[type="submit"]:hover {
 }
 
 
+.img-9 {
+  display: block;
+  margin: auto;
+  max-width: 30%;
+  height: auto;
+}

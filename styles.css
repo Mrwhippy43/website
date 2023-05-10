@@ -178,3 +178,34 @@ form input[type="submit"]:hover {
   max-width: 30%;
   height: auto;
 }
+
+.img-6 {
+  display: block;
+  margin: auto;
+  max-width: 75%;
+  height: auto;
+}
+
+.img-7 {
+  display: block;
+  margin: auto;
+  max-width: 30%;
+  height: 10%;
+}
+
+.img-8 {
+  display: block;
+  margin: auto;
+  max-width: 30%;
+  height: 10%;
+}
+
+.img-5 {
+  display: block;
+  margin: auto;
+  max-width: 30%;
+  height: 10%;
+}
+
+
+

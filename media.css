@@ -16,10 +16,10 @@ h1, h2, h3, p {
   text-shadow: -2px 0 yellow, 0 2px green, 2px 0 green, 0 -2px green;
 }
 
-img {
+.image1 {
   border-radius: 50%;
   width: 100px;
-  height: 100px;
+  height:100px;
 }
 
 body {
@@ -86,7 +86,7 @@ main {
 }
 
   
-}
+
 
 .class-container {
   display: flex;
@@ -148,3 +148,12 @@ form input[type="submit"]:hover {
 .second-page {
   color: black;
 }
+
+.img-4 {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+

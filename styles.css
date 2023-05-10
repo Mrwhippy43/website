@@ -22,7 +22,7 @@ text-shadow: 1px 1px 0 #fff;
 /*Add styling to header image*/
 .image1 {
   border-radius: 50%;
-  width: 150px;
+  width: 150p;
   height:150px;
 
 }
@@ -41,7 +41,7 @@ body {
 /* Style the header */
 header {
   background-color: #204f7d;
-  color: #fff;
+  color: #ffff00;
   padding: 20px;
 }
 

@@ -29,13 +29,20 @@
     
       <h2>Check out our You Tube and Instagram channels below</h2>
       <div class="class-container">
-        <!-- Embed a YouTube video here -->
-      
-        <iframe style="border: 0;" width="330" height="250" src="https://www.youtube.com/embed/k1oTnp40Vnw"></iframe>
-        <iframe style="border: 0;" width="330" height="250" src="https://www.youtube.com/embed/dGrKfiVCsac"></iframe>
-        <iframe style="border: 0;" width="330" height="250" src="https://www.youtube.com/embed/h4gx8UC-4jo"></iframe>
-       
-      </div>
+  <!-- Embed YouTube videos here -->
+  <script>
+    const videoIds = ["k1oTnp40Vnw", "dGrKfiVCsac", "h4gx8UC-4jo"];
+    videoIds.forEach(id => {
+      const iframe = document.createElement('iframe');
+      iframe.style.border = "0";
+      iframe.width = "330";
+      iframe.height = "250";
+      iframe.src = `https://www.youtube.com/embed/${id}`;
+      document.querySelector('.class-container').appendChild(iframe);
+    });
+  </script>
+</div>
+
       <section>
       <h3>Don't have time to watch now?</h3> 
       <p> Subscribe to our YouTube channel to watch later, access all our videos and be notified of new adventures!</p>

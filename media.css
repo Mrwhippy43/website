@@ -183,3 +183,19 @@ form input[type="submit"]:hover {
   height: auto;
   border: 1.5px solid #000;
 }
+
+.img-7 {
+  display: block;
+  margin: auto;
+  max-width: 60%;
+  height: auto;
+  border: 1.5px solid #000;
+}
+
+.img-6 {
+  display: block;
+  margin: auto;
+  max-width: 90%;
+  height: auto;
+  border: 1.5px solid #000;
+}

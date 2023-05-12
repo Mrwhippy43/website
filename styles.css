@@ -73,7 +73,7 @@ header {
 }
 
 /* Style the main content */
-main main {
+main {
   padding: 40px;
   border: 1px solid #ddd;
 }
@@ -141,7 +141,6 @@ main main {
   padding: 10px 20px;
   cursor: pointer;
   margin: 0 auto;
-
 }
 
 
@@ -204,28 +203,28 @@ form input[type="submit"]:hover {
   display: block;
   margin: auto;
   max-width: 30%;
-  height: auto%;
+  height: auto;
 }
 
 .img-8 {
   display: block;
   margin: auto;
   max-width: 30%;
-  height: auto%;
+  height: auto;
 }
 
 .img-5 {
   display: block;
   margin: auto;
   max-width: 30%;
-  height: auto%;
+  height: auto;
 }
 
 .img-10 {
   display: block;
   margin: auto;
   max-width: 30%;
-  height: auto%;
+  height: auto;
   border: 5px solid #000;
 }
 

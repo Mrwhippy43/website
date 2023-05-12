@@ -233,7 +233,7 @@ form input[type="submit"]:hover {
   margin: auto;
   width: 100%; /* Adjust this value as needed */
   height: auto;
-  border: 3px solid #000;
+  border: 1.5px solid #000;
 }
 
 

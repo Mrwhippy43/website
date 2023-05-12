@@ -195,8 +195,9 @@ form input[type="submit"]:hover {
 .img-6 {
   display: block;
   margin: auto;
-  max-width: 75%;
+  max-width: 90%;
   height: auto;
+  border: 1.5px solid #000;
 }
 
 .img-7 {

@@ -35,28 +35,12 @@ header {
   background-color: #204f7d;
   color: #ffff00;
   padding: 20px;
-  
-}
-
-.logo {
-  margin-right: 20px;
-}
+  }
 
 .nav-bar {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-.nav-bar li {
-  display: inline-block;
- 
-}
-
-.nav-bar li a {
-  color: #fff;
-  text-decoration: none;
-  padding: 10px 20px;
 }
 
 /* Style the main content */

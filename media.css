@@ -10,15 +10,6 @@ text-shadow: 1px 1px 0 #fff;
 
 }
 
-.fa-instagram {
-  font-size: 32px;
-}
-
-.yellow-outline {
-  color: black;
-  text-shadow: -2px 0 yellow, 0 2px green, 2px 0 green, 0 -2px green;
-}
-
 .image1 {
   border-radius: 50%;
   width: 150px;
@@ -31,7 +22,6 @@ body {
   font-size:30px;
   border: 10px solid black;
 }
-
 
 
 header {
@@ -52,48 +42,9 @@ header {
   padding: 0;
 }
 
-.nav-bar li {
-  position: relative;
-}
-
-.nav-bar li a {
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
-  display: block;
-}
-
-.nav-bar li a:hover {
-  background-color: #fff;
-}
-
-.nav-bar li .dropdown-content {
-  display: none;
-  position: relative;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.nav-bar li:hover .dropdown-content {
-  display: block;
-}
-
 main {
   padding: 10px;
 }
-
-.container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-}
-
-  
-
 
 .class-container {
   display: flex;
@@ -101,55 +52,6 @@ main {
   justify-content: left;
   margin-bottom: 20p;
   max-width: 100%;
-}
-
-.find-out-more-btn {
-  background-color: #333;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-.find-out-more-btn:hover {
-  background-color: #444;
-}
-
-.read-more-btn {
-  background-color: #6699CC;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  margin: 0 auto;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-form input {
-  width: 90%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-}
-
-form input[type="submit"] {
-  background-color: #333;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-form input[type="submit"]:hover {
-  background-color: #444;
 }
 
 @media only screen and (max-width: 600px) {

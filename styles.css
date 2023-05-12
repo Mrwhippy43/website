@@ -11,14 +11,7 @@ text-shadow: 1px 1px 0 #fff;
 
 }
 
-.fa-instagram {
-  font-size: 32px;
 
-}
-.yellow-outline {
-  color: black; /* Yellow text */
-  text-shadow: -2px 0 yellow, 0 2px green, 2px 0 green, 0 -2px green;
-}
 /*Add styling to header image*/
 .image1 {
   border-radius: 50%;
@@ -34,7 +27,6 @@ body {
   font-family: sans-serif;
   font-size:30px;
  
-  
 }
   
 
@@ -118,60 +110,6 @@ main {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-}
-
-/* Style the "Find out more" button */
-.find-out-more-btn {
-  background-color: #333;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-.find-out-more-btn:hover {
-  background-color: #444;
-}
-
-/* Style the "Read more" button */
-.read-more-btn {
-  background-color: #6699CC;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  margin: 0 auto;
-}
-
-
-
-/* Style the form */
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-form input {
-  width: 300px;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-}
-
-form input[type="submit"] {
-  background-color: #333;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-form input[type="submit"]:hover {
-  background-color: #444;
 }
 
 

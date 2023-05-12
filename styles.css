@@ -41,6 +41,25 @@ header {
   margin: 0;
   padding: 0;
   list-style: none;
+  background-color: #204f7d
+}
+
+.nav-bar li {
+  position: relative;
+  display: inline-block;
+  background-color: #204f7d
+}
+
+.nav-bar li a {
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+  
+}
+
+.nav-bar li a:hover {
+  background-color: #444;
 }
 
 /* Style the main content */

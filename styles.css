@@ -103,16 +103,6 @@ main {
 }
 
 
-
-
-/* Style the YouTube and subscriber count section */
-.video-section {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-
 /*style of blog link pictures*/
 .image2 {
   max-width: 60%;

@@ -171,6 +171,7 @@ form input[type="submit"]:hover {
   margin: auto;
   max-width: 100%;
   height: auto%;
+  border: 5px solid #000;
 }
 
 @media only screen and (max-width: 600px) {

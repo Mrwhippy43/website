@@ -139,7 +139,7 @@ main {
 .img-3 {
   display: block;
   margin: auto;
-  width: 60%;
+  width: 100%;
   height: auto%;
   border: 1.5px solid #000;
 }

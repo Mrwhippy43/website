@@ -128,3 +128,19 @@ main {
   border: 1.5px solid #000;
 }
 
+.img-4 {
+  display: block;
+  margin: auto;
+  width: 100%; /* Adjust this value as needed */
+  height: auto;
+  border: 1.5px solid #000;
+}
+
+.img-3 {
+  display: block;
+  margin: auto;
+  width: 60%;
+  height: auto%;
+  border: 1.5px solid #000;
+}
+

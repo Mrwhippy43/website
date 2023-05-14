@@ -79,7 +79,7 @@ main {
 
 
 /*style of blog link pictures*/
-.image2 {
+.img-2 {
   max-width: 60%;
   height: auto;
   margin: 10px auto;
@@ -152,6 +152,31 @@ main {
   height: auto%;
   border: 1.5px solid #000;
 }
+
+.img-11 {
+  display: block;
+  margin: auto;
+  max-width: 60%;
+  height: auto;
+  border: 1.5px solid #000;
+}
+
+.centered-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.centered-image img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+
+
+
+
 
 button {
   background-color: #204f7d; /* Green */

@@ -144,3 +144,14 @@ main {
   border: 1.5px solid #000;
 }
 
+.centered-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.centered-image img {
+  max-width: 90%;
+  max-height: 90%;
+}

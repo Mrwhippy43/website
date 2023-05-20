@@ -149,3 +149,11 @@ main {
   max-width: 90%;
   max-height: 90%;
 }
+
+.class-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-bottom: 20p;
+  max-width: 100%;
+}

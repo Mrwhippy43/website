@@ -25,41 +25,52 @@ body {
 
 
 header {
+  background-image: url('https://lh3.googleusercontent.com/pw/AJFCJaXoz1h_6np_rsq4lEBNgnm3Mf_upmfukPPtp80tQ_pLHayv-EarQ74UQbA01SCLB5mI_ixmsbSh2wKDpHXJ64rEYQBUV3IveD5n7DmQnWtjSUxEHAPK2gzvMrFUl6My2G23YOb01OlyskN0Txq6OkEs=w1826-h578-s-no?authuser=0');
   background-color: #204f7d;
   color: #ffff00;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 2px;
-  width: 100%;
+  padding: 20px;
 }
 
+
+/* Your existing styles */
+
 .nav-bar {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .nav-bar li {
   position: relative;
   display: inline-block;
-  background-color: #204f7d
 }
 
 .nav-bar li a {
-  color: black;
+  color: #ffff00;
   text-decoration: none;
   padding: 20px;
   display: block;
-  
+  background-color: transparent; /* Remove the background color */
+  border: none; /* Remove the border */
 }
 
 .nav-bar li a:hover {
-  background-color: #444;
+  background-color: transparent; /* Remove the background color on hover */
+  border: none; /* Remove the border on hover */
 }
 
+/* Mobile-specific styles */
+
+@media screen and (max-width: 767px) {
+  .nav-bar li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .nav-bar li a {
+    padding: 10px;
+  }
+}
 main {
   padding: 10px;
 }

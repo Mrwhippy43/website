@@ -32,35 +32,38 @@ body {
 
 /* Style the header */
 header {
+  background-image: url('https://lh3.googleusercontent.com/pw/AJFCJaXoz1h_6np_rsq4lEBNgnm3Mf_upmfukPPtp80tQ_pLHayv-EarQ74UQbA01SCLB5mI_ixmsbSh2wKDpHXJ64rEYQBUV3IveD5n7DmQnWtjSUxEHAPK2gzvMrFUl6My2G23YOb01OlyskN0Txq6OkEs=w1826-h578-s-no?authuser=0');
   background-color: #204f7d;
   color: #ffff00;
   padding: 20px;
-  }
+}
+
 
 .nav-bar {
   margin: 0;
   padding: 0;
   list-style: none;
-  background-color: #204f7d
 }
 
 .nav-bar li {
   position: relative;
   display: inline-block;
-  background-color: #204f7d
 }
 
 .nav-bar li a {
-  color: black;
+  color: #ffff00;
   text-decoration: none;
   padding: 20px;
   display: block;
-  
+  background-color: transparent; /* Remove the background color */
+  border: none; /* Remove the border */
 }
 
 .nav-bar li a:hover {
-  background-color: #444;
+  background-color: transparent; /* Remove the background color on hover */
+  border: none; /* Remove the border on hover */
 }
+
 
 /* Style the main content */
 main {

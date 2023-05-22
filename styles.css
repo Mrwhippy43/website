@@ -38,6 +38,15 @@ header {
   padding: 20px;
 }
 
+.header-title {
+    font-family: "Brush Script MT", cursive;
+    /* Add your other desired styles for the header title */
+    color: #ffff00;
+    font-size: 50px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    /* ... */
+}
+
 
 .nav-bar {
   margin: 0;
